@@ -13,18 +13,22 @@ body {
 /* ################### NavBar ##################### */
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(158, 158, 158);
     position: fixed;
     /* Set the navbar to fixed position */
     top: 0;
     /* Position the navbar at the top of the page */
     width: 100%;
     /* Full width */
-    height: 30px;
-    display: flex;
-    justify-content: space-around;
+    height: 50px;
     align-items: center;
     padding: 5px 6px;
+
+}
+
+.nav-item {
+    display: flex;
+    justify-content: space-around;
 
 }
 
@@ -67,7 +71,7 @@ hr {
 
 /* ############################## top container ##############################  */
 
-.top-container {
+.main-container {
     background-color: #e4f9f5;
     padding-top: 100px;
     padding-bottom: 80px;
