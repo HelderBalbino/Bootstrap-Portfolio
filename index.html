@@ -2,23 +2,27 @@
 <html lang="en">
 
 <head>
+    <!-- Required meta tags -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
         crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="Images/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-
 
     <title>Helder Balbino</title>
 </head>
 
 <body>
+    <!-- ####################- NAV BAR -######################### -->
+
     <!-- ######################## NavBar########################## -->
-    <nav class="navbar navbar-expand-lg">
+    <nav id="mainNavbar" class="navbar navbar-dark  navbar-expand-lg py-0 fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#home">Home</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,20 +45,22 @@
         </div>
     </nav>
 
+    <!--############################## top container ##############################  -->
+
+    <!-- ##########- Header section -########## -->
+
     <header>
 
-
-
-        <!--############################## top container ##############################  -->
-        <div id="home" class="profile">
-            <h2>Hello 👋🏾</h2>
+        <section id="home" class="jumbotron text-center pb-1 profile">
+            <h2 class="mb-5">Hello 👋🏾</h2>
             <h1>I am Helder</h1>
             <h2>welcome to my page!</h2>
-            <h3>Let's create awesome things together.-</h3>
-        </div>
-
+            <h3>Let's create awesome things together.</h3>
+        </section>
 
     </header>
+
+    <!--############################## main container ##############################  -->
 
     <div class="main-container">
 
@@ -74,7 +80,6 @@
 
         <div id="skills" class="skills">
             <h2>My Skills.</h2>
-
 
             <div class="skill-row">
                 <img class="computer-gif" src="https://media.giphy.com/media/9LXWHpIZ0ygUXywnj7/giphy.gif" alt="gif of a computer">
@@ -105,35 +110,93 @@
 
             <h2>My Projects</h2>
 
-            <hr class="my-5">
-            <div class="row">
-                <div class="col-xl-4 col-lg-6">
-                    <img class="img-fluid"
-                        src="https://images.unsplash.com/photo-1549608276-5786777e6587?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8YmlyZHN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" alt="">
+            <section id="galery">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 mb-5 mt-1">
+                            <div class="card">
+                                <img src="https://images.unsplash.com/photo-1496723744796-7216a8d5c244?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="card-img-top"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sunset</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-outline-primary btn-sm">live</a>
+                                    <a href="#" class="btn btn-outline-danger btn-sm">code</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 mb-5 mt-1">
+                            <div class="card">
+                                <img src="https://images.unsplash.com/photo-1496723744796-7216a8d5c244?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="card-img-top"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sunset</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-outline-primary btn-sm">live</a>
+                                    <a href="#" class="btn btn-outline-danger btn-sm">code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-5 mt-1">
+                            <div class="card">
+                                <img src="https://images.unsplash.com/photo-1496723744796-7216a8d5c244?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="card-img-top"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sunset</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-outline-primary btn-sm">live</a>
+                                    <a href="#" class="btn btn-outline-danger btn-sm">code</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 mb-5 mt-1">
+                            <div class="card">
+                                <img src="https://images.unsplash.com/photo-1496723744796-7216a8d5c244?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="card-img-top"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sunset</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-outline-primary btn-sm">live</a>
+                                    <a href="#" class="btn btn-outline-danger btn-sm">code</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 mb-5 mt-1">
+                            <div class="card">
+                                <img src="https://images.unsplash.com/photo-1496723744796-7216a8d5c244?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="card-img-top"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sunset</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-outline-primary btn-sm">live</a>
+                                    <a href="#" class="btn btn-outline-danger btn-sm">code</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 mb-5 mt-1">
+                            <div class="card">
+                                <img src="https://images.unsplash.com/photo-1496723744796-7216a8d5c244?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="card-img-top"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sunset</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-outline-primary btn-sm">live</a>
+                                    <a href="#" class="btn btn-outline-danger btn-sm">code</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
 
 
-
-                <div class="col-xl-4 col-lg-6">
-                    <img class="img-fluid"
-                        src="https://images.unsplash.com/photo-1480044965905-02098d419e96?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8YmlyZHN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
-                        alt="">
-                </div>
-
-
-                <div class="col-xl-4 col-lg-6">
-                    <img class="img-fluid"
-                        src="https://images.unsplash.com/photo-1529690086133-c8e4bc9e1f6a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nnx8YmlyZHN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
-                        alt="">
-                </div>
-
-
-            </div>
-
-            <hr class="my-5">
-            <hr class="my-5">
-
+            </section>
         </section>
+        <hr>
 
         <!--############################## Contact me ##############################  -->
 

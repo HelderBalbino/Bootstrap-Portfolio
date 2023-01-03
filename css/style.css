@@ -11,25 +11,58 @@ body {
 }
 
 /* ################### NavBar ##################### */
-.navbar {
-    overflow: hidden;
-    background-color: rgb(158, 158, 158);
-    position: fixed;
-    /* Set the navbar to fixed position */
-    top: 0;
-    /* Position the navbar at the top of the page */
-    width: 100%;
-    /* Full width */
-    height: 50px;
-    align-items: center;
-    padding: 5px 6px;
+
+#mainNavbar {
+    font-weight: 60;
+    font-size: 1rem;
 
 }
 
-.nav-item {
-    display: flex;
-    justify-content: space-around;
+#mainNavbar .navbar-brand {
+    color: rgb(95, 194, 161);
+    font-size: 2rem;
 
+
+}
+
+#mainNavbar .nav-link {
+    color: #20bf6b !important;
+    text-transform: uppercase;
+    background: #ffffff;
+    padding: 7px;
+    border: 3px solid #20bf6b !important;
+    border-radius: 4px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    margin: 0.5rem;
+
+}
+
+#mainNavbar .nav-link:hover {
+    /* color: #494949 !important;
+    border-radius: 50px;
+    border-color: #494949 !important;
+    transition: all 0.3s ease 0s; */
+    color: white !important;
+    border-radius: 66px;
+    background: #9fe6f0;
+    box-shadow: inset -13px -13px 14px #9fe6f0,
+        inset 13px 13px 14px #9fe6f0;
+
+
+}
+
+#mainNavbar.scrolled {
+
+    background-color: #000000;
+    transition: background 500ms;
+}
+
+/* ################### NavBar ##################### */
+
+
+header {
+    margin-top: 60px;
 }
 
 h1 {
@@ -63,10 +96,10 @@ p {
 
 hr {
     border-style: dotted none none;
-    border-color: #eaf6f6;
+    border-color: #21d3d3;
     border-width: 9px;
     width: 6%;
-    margin: 100px auto 100px auto;
+    margin: 70px auto 70px auto;
 }
 
 /* ############################## top container ##############################  */
